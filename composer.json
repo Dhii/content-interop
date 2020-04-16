@@ -23,7 +23,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Dhii\\Content\\Test\\Unit\\": "test/unit"
+      "Dhii\\Content\\Test\\Unit\\": "tests/unit"
     }
   },
   "extra": {
