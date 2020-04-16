@@ -12,5 +12,18 @@
       "name": "Anton Ukhanev",
       "role": "Developer"
     }
-  ]
+  ],
+  "require": {
+    "php": "7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dhii//Content//": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dhii//Content//Test//Unit//": "test/unit"
+    }
+  }
 }
