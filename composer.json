@@ -18,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Dhii//Content//": "src"
+      "Dhii\\Content\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Dhii//Content//Test//Unit//": "test/unit"
+      "Dhii\\Content\\Test\\Unit\\": "test/unit"
     }
   }
 }
