@@ -1,0 +1,5 @@
+.idea export-ignore
+.env.example export-ignore
+docker-compose export-ignore
+composer.lock export-ignore
+.gitattributes export-ignore
