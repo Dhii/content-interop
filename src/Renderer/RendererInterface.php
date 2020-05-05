@@ -5,6 +5,7 @@ namespace Dhii\Content\Renderer;
 
 use Dhii\Content\Element\ElementInterface;
 use Dhii\Util\String\StringableInterface;
+use Exception;
 
 /**
  * Can render an element.
@@ -17,6 +18,8 @@ interface RendererInterface
      * @param ElementInterface $element The element to render.
      *
      * @return StringableInterface The result of rendering.
+     *
+     * @throws Exception If problem rendering.
      */
     public function renderElement(ElementInterface $element): StringableInterface;
 }
