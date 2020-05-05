@@ -24,6 +24,15 @@ interface ElementInterface extends
     public function getChildren(): iterable;
 
     /**
+     * Creates a new instance with the type corresponding to the specified code.
+     *
+     * @param string $code The type code.
+     *
+     * @return static A new instance of the same element.
+     */
+    public function withType(string $code);
+
+    /**
      * Creates a new instance with the specified ID.
      *
      * @param string $id The ID for the new element.
