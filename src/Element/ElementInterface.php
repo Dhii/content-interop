@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Dhii\Content\Element;
 
 use Dhii\Content\Type\TypeAwareInterface;
+use Dhii\Content\Type\TypeInterface;
 use Dhii\Data\IdAwareInterface;
 use Exception;
 
@@ -24,13 +25,13 @@ interface ElementInterface extends
     public function getChildren(): iterable;
 
     /**
-     * Creates a new instance with the type corresponding to the specified code.
+     * Creates a new instance with the given type.
      *
-     * @param string $code The type code.
+     * @param TypeInterface $type The element type.
      *
      * @return static A new instance of the same element.
      */
-    public function withType(string $code);
+    public function withType(TypeInterface $type);
 
     /**
      * Creates a new instance with the specified ID.
