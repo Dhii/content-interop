@@ -8,7 +8,7 @@ use Dhii\Content\Type\TypeInterface;
 /**
  * A content space.
  */
-interface Space
+interface SpaceInterface
 {
     /**
      * Retrieves a type for the specified code.
