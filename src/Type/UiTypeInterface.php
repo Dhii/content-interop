@@ -5,14 +5,11 @@ namespace Dhii\Content\Type;
 
 use Dhii\Content\Element\ElementInterface;
 use Dhii\Content\Element\UiElementInterface;
-use Dhii\Content\Renderer\RendererInterface;
 
 /**
  * A type of a user interface element
  */
-interface UiTypeInterface extends
-    TypeInterface,
-    RendererInterface
+interface UiTypeInterface extends TypeInterface
 {
     /**
      * @inheritDoc
